@@ -1,0 +1,54 @@
+#! /usr/share/iverilog-0.9.7/bin/vvp
+:ivl_version "0.9.7 " "(v0_9_6)";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x1afeeb0 .scope module, "half_adder_tb" "half_adder_tb" 2 7;
+ .timescale 0 0;
+v0x1b0f930_0 .var "r_BIT1", 0 0;
+v0x1b0fa00_0 .var "r_BIT2", 0 0;
+v0x1b0fab0_0 .net "w_CARRY", 0 0, L_0x1b0fd90; 1 drivers
+v0x1b0fb60_0 .net "w_SUM", 0 0, L_0x1b0fc40; 1 drivers
+S_0x1afefa0 .scope module, "half_adder_inst" "half_adder" 2 14, 3 4, S_0x1afeeb0;
+ .timescale 0 0;
+L_0x1b0fc40 .functor XOR 1, v0x1b0f930_0, v0x1b0fa00_0, C4<0>, C4<0>;
+L_0x1b0fd90 .functor AND 1, v0x1b0f930_0, v0x1b0fa00_0, C4<1>, C4<1>;
+v0x1aff090_0 .net "i_bit1", 0 0, v0x1b0f930_0; 1 drivers
+v0x1b0f740_0 .net "i_bit2", 0 0, v0x1b0fa00_0; 1 drivers
+v0x1b0f7e0_0 .alias "o_carry", 0 0, v0x1b0fab0_0;
+v0x1b0f880_0 .alias "o_sum", 0 0, v0x1b0fb60_0;
+    .scope S_0x1afeeb0;
+T_0 ;
+    %set/v v0x1b0f930_0, 0, 1;
+    %end;
+    .thread T_0;
+    .scope S_0x1afeeb0;
+T_1 ;
+    %set/v v0x1b0fa00_0, 0, 1;
+    %end;
+    .thread T_1;
+    .scope S_0x1afeeb0;
+T_2 ;
+    %vpi_call 2 25 "$dumpfile", "dump.vcd";
+    %vpi_call 2 26 "$dumpvars", 2'sb01;
+    %set/v v0x1b0f930_0, 0, 1;
+    %set/v v0x1b0fa00_0, 0, 1;
+    %delay 10, 0;
+    %set/v v0x1b0f930_0, 0, 1;
+    %set/v v0x1b0fa00_0, 1, 1;
+    %delay 10, 0;
+    %set/v v0x1b0f930_0, 1, 1;
+    %set/v v0x1b0fa00_0, 0, 1;
+    %delay 10, 0;
+    %set/v v0x1b0f930_0, 1, 1;
+    %set/v v0x1b0fa00_0, 1, 1;
+    %delay 10, 0;
+    %end;
+    .thread T_2;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "testbench.sv";
+    "design.sv";
