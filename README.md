@@ -14,3 +14,6 @@ Accumulator with TB (Output Broken)
 FIFO with TB
 - Code generated using ChatGPT
 - Test bench designed with 10 randomly generated test cases
+
+8-bit Multiplexer with TB
+- Code generated using ChatGPT
