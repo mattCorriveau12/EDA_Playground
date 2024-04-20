@@ -17,3 +17,14 @@ FIFO with TB
 
 8-bit Multiplexer with TB
 - Code generated using ChatGPT
+
+ALU with TB
+- Code generated using ChatGPT
+
+UART Transmitter/Receiver with TB
+- Code generated using ChatGPT
+- Output not working properly. Still troubleshooting. Will upload once working.
+
+8-bit Memory with TB
+- Code generated using ChatGPT
+- Output not working properly. Still troubleshooting. Will upload once working.
