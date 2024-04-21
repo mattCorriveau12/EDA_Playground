@@ -21,10 +21,10 @@ FIFO with TB
 ALU with TB
 - Code generated using ChatGPT
 
-UART Transmitter/Receiver with TB
-- Code generated using ChatGPT
-- Output not working properly. Still troubleshooting. Will upload once working.
-
 8-bit Memory with TB
-- Code generated using ChatGPT
-- Output not working properly. Still troubleshooting. Will upload once working.
+- Code generated using GPT4 (askaichat.app)
+- Originally not working. ChatGPT4 got it working. GPT3 could not get it working.
+
+UART Transmitter/Receiver with TB
+- Code generated using GPT4 (askaichat.app)
+- Originally not working. ChatGPT4 got it working. GPT3 could not get it working.
