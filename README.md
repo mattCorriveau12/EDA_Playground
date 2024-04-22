@@ -32,4 +32,5 @@ UART Transmitter/Receiver with TB
 7-Segment Decoder with TB
 - Code generated using GPT4 (askaichat.app)
 
-- 
+8-bit Signed Multiplier/Divider
+- Code generated using GPT4 (askaichat.app)
