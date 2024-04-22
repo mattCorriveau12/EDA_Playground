@@ -28,3 +28,8 @@ ALU with TB
 UART Transmitter/Receiver with TB
 - Code generated using GPT4 (askaichat.app)
 - Originally not working. ChatGPT4 got it working. GPT3 could not get it working.
+
+7-Segment Decoder with TB
+- Code generated using GPT4 (askaichat.app)
+
+- 
