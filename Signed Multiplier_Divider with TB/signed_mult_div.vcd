@@ -1,0 +1,116 @@
+$date
+	Mon Apr 22 02:49:17 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module signed_mult_div_tb $end
+$var wire 8 ! div [7:0] $end
+$var wire 1 " div_by_zero $end
+$var wire 16 # mult [15:0] $end
+$var reg 8 $ a [7:0] $end
+$var reg 8 % b [7:0] $end
+$scope module uut $end
+$var wire 8 & a [7:0] $end
+$var wire 8 ' b [7:0] $end
+$var reg 8 ( div [7:0] $end
+$var reg 1 ) div_by_zero $end
+$var reg 16 * mult [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 *
+1)
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+1"
+b0 !
+$end
+#10000
+0)
+0"
+b1 (
+b1 !
+b11111100000001 *
+b11111100000001 #
+b1111111 %
+b1111111 '
+b1111111 $
+b1111111 &
+#20000
+b11111111 (
+b11111111 !
+b1100000010000000 *
+b1100000010000000 #
+b10000000 $
+b10000000 &
+#30000
+b0 (
+b0 !
+b10000000 %
+b10000000 '
+b1111111 $
+b1111111 &
+#40000
+b1 (
+b1 !
+b100000000000000 *
+b100000000000000 #
+b10000000 $
+b10000000 &
+#50000
+b10 (
+b10 !
+b110010 *
+b110010 #
+b101 %
+b101 '
+b1010 $
+b1010 &
+#60000
+b11111110 (
+b11111110 !
+b1111111111001110 *
+b1111111111001110 #
+b11110110 $
+b11110110 &
+#70000
+b11111011 %
+b11111011 '
+b1010 $
+b1010 &
+#80000
+b10 (
+b10 !
+b110010 *
+b110010 #
+b11110110 $
+b11110110 &
+#90000
+1)
+1"
+b0 (
+b0 !
+b0 *
+b0 #
+b0 %
+b0 '
+b1010 $
+b1010 &
+#100000
+0)
+0"
+b11110110 %
+b11110110 '
+b0 $
+b0 &
+#110000
